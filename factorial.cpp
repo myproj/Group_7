@@ -4,7 +4,7 @@ int factorial(int n){
 
 
 	if(n < 0){
-		cout << "Enter positive number" << endl;
+		cout << "Enter non negative number\n";
 		cin << n;
 	}
 
