@@ -5,8 +5,9 @@ using namespace std;
 int factorial(int n){
 
 
+
 	if(n < 0){
-		cout << "Enter non negative number\n";
+		cout << "Enter a positive number or zero\n";
 		cin >> n;
 	}
 
