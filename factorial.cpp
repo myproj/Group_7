@@ -1,11 +1,13 @@
+#include <iostream>
 #include "functions.h"
+using namespace std;
 
 int factorial(int n){
 
 
 	if(n < 0){
 		cout << "Enter non negative number\n";
-		cin << n;
+		cin >> n;
 	}
 
 
